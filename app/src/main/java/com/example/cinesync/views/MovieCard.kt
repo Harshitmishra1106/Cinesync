@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.views
 
 
 import androidx.compose.foundation.clickable
@@ -28,6 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.example.cinesync.R
+import com.example.cinesync.models.Title
 
 @Composable
 fun MovieCard(

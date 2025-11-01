@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.views
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -25,6 +25,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
+import com.example.cinesync.shimmerEffect.ShimmerDetailPlaceholder
+import com.example.cinesync.viewModels.DetailsViewModel
 
 @Composable
 fun DetailScreen(id: Int?, viewModel: DetailsViewModel = viewModel()) {
@@ -41,7 +43,6 @@ fun DetailScreen(id: Int?, viewModel: DetailsViewModel = viewModel()) {
                 enter = fadeIn(tween(400)),
                 exit = fadeOut(tween(300))
             ){
-                // shimmer placeholder
                 ShimmerDetailPlaceholder()
             }
             AnimatedVisibility(

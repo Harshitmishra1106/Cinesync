@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.shimmerEffect
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

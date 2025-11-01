@@ -1,5 +1,7 @@
-package com.example.cinesync
+package com.example.cinesync.apiService
 
+import com.example.cinesync.models.TitleDetailsResponse
+import com.example.cinesync.models.TitlesResponse
 import io.reactivex.rxjava3.core.Single
 import retrofit2.http.GET
 import retrofit2.http.Path

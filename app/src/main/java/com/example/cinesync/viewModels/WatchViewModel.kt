@@ -1,9 +1,11 @@
-package com.example.cinesync
+package com.example.cinesync.viewModels
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import com.example.cinesync.apiService.ApiClient
+import com.example.cinesync.models.Title
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
@@ -29,11 +31,11 @@ class WatchViewModel : ViewModel() {
         filterData()
     }
 
-    private fun filterData() {
+    fun filterData() {
         titles = if (isMovieSelected) allMovies else allTvShows
     }
 
-    private fun fetchData() {
+    fun fetchData() {
         isLoading = true
 
         val disposable = Single.zip(

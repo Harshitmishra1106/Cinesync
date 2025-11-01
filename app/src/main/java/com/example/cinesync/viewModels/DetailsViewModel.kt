@@ -1,9 +1,11 @@
-package com.example.cinesync
+package com.example.cinesync.viewModels
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import com.example.cinesync.apiService.ApiClient
+import com.example.cinesync.models.TitleDetailsResponse
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
 

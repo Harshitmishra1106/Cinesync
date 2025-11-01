@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.apiService
 
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory

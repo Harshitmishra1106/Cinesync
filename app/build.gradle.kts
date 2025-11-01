@@ -68,7 +68,7 @@ dependencies {
 
     implementation("com.valentinilk.shimmer:compose-shimmer:1.3.3")
     implementation("io.coil-kt:coil-compose:2.7.0")
-    // Jetpack Compose ViewModel support
+
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
 
 

@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.views
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -28,6 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.example.cinesync.shimmerEffect.ShimmerListPlaceholder
+import com.example.cinesync.viewModels.WatchViewModel
 
 
 @Composable

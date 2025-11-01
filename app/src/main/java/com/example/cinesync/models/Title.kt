@@ -1,4 +1,4 @@
-package com.example.cinesync
+package com.example.cinesync.models
 
 data class Title(
     val id: Int,
