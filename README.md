@@ -70,4 +70,4 @@ Watch the walkthrough of the app’s features and design decisions here:
 
 📱 **Download APK:**  
 Try the app on your Android device by downloading the latest release:  
-👉 [Download APK from Google Drive](https://drive.google.com/your-apk-link)
+👉 [Download APK from Google Drive](https://drive.google.com/file/d/1vXtNwoKlfGdGl5STMU5rNBvKD-VET1O-/view?usp=sharing)
