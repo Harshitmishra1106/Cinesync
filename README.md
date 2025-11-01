@@ -66,7 +66,7 @@ The app showcases clean architecture, reactive programming using **RxKotlin**, a
 
 🎥 **Video Explanation:**  
 Watch the walkthrough of the app’s features and design decisions here:  
-👉 [Here's the code walkthrough](https://youtu.be/your-video-link)
+👉 [Here's the code walkthrough](https://drive.google.com/file/d/1EruVpuabov_wy1rm22Wyi7RuzN7NKsKH/view?usp=sharing)
 
 📱 **Download APK:**  
 Try the app on your Android device by downloading the latest release:  
