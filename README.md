@@ -5,6 +5,14 @@ The app showcases clean architecture, reactive programming using **RxKotlin**, a
 
 ---
 
+## 🎥 App Demo
+
+<p align="center">
+  <img src="Cinesync_demo.gif" alt="App Demo" width="350"/>
+</p>
+
+---
+
 ## 🚀 Features Implemented
 
 - 🎞️ **Dynamic Toggle** between Movies 🎥 and TV Shows 📺 using separate API calls simultaneously
